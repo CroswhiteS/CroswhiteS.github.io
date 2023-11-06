@@ -65,15 +65,64 @@ h1 {
     text-align:center;
 }
 
+/* still need to add to h2 and onwards how to  converst to rem units?  */
+h2 {
+    text-transform: uppercase;
+    font-size:48px 6rem;
+    margin: 0;
+    letter-spacing: 4px;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
 
+h3 {
+    text-transform: uppercase;
+    font-size:32px 6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:black;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size:24px 6rem;
+    margin: 0;
+    letter-spacing:4px .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
 /* Section & Paragraph */
 
+section {}
 
+P {}
 
 /* Image & Figure */
+ 
+img {}
 
+figure {}
+
+figcaption {}
 
 
 /* Footer */
 
-
+footer {}
