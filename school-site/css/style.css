@@ -79,40 +79,78 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face {}
+@font-face {
+    src:
+    url("../fonts/josefinslab-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family: josefinslab;
+}
 
-@font-face {}
+@font-face {
+    src:
+    url("../fonts/montserrat-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family: montserrat;
+}
 
 
 
 
 /* Typography Styles */
 
-html {}
+html {
+    font-family:montserrat, Arial, Helvetica, sans-serif;
 
-h1 {}
+}
+h1,
+h2 {
+    letter-spacing:.125rem;
+    font-family:josfinslab, Georgia, 'Times New Roman', Times, serif;
+}
 
-h2{}
+h1 {
+font-size: 3.75rem;
+margin: 1.125rem;
+text-align: center;
+}
 
-h2 + p {}
+h2 {
+font-size: 1.5rem; 
+}
 
-p {}
+h2 + p {
+    text-indent: 1.5rem;
+}
+p,
+li{
+    font-size: .75rem;
+    letter-spacing:.03125rem ;
+    word-spacing: .125rem;
+}
 
-li {}
 
-figcaption {}
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+}
 
 /* Link Styling */
 
-a {}
+a {
+    text-decoration: none;
+}
 
 a:link,
-
-a:visited {}
+a:visited {
+    color: #33658A;
+}
 
 a:focus,
-
-a:hover {}
+a:hover {
+    text-decoration: none;
+}
 
 
 
@@ -130,12 +168,26 @@ ol {}
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin-top: .25rem;
+}
 
-nav a {}
+nav a {
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: solid .0625rem #33658A;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
 
 nav a:active{}
 
