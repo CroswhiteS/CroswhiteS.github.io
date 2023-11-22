@@ -157,11 +157,20 @@ a:hover {
 
 /* List Styling */
 
-ul {}
+ul {margin-top: 1rem;margin-bottom: 1rem;
+    margin-left: 0;margin-right: 0;
+    list-style-type: square;
 
-ol {}
+}
 
-.long-list a:hover {}
+ol {margin-top: 1rem;margin-bottom: 1rem;
+    margin-left: 0;margin-right: 0;
+    list-style-type: lower-alpha;
+}
+
+.long-list a:hover {
+    transform:bold ;
+}
 
 
 
@@ -185,18 +194,23 @@ nav a {
 
 nav a:focus,
 nav a:hover {
-    background-color: #000;
+    background-color: #33658A;
     color: #fff;
 }
 
-nav a:active{}
+nav a:active{
+    color: #fff;
+    background-color: #000;
+}
 
 
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+    text-align: center;
+}
 
 
 
