@@ -1,7 +1,128 @@
 /* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
 
-        /* 
-        
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+/* Layout */
+
+main {
+    overflow:auto;
+    min-width:45rem;
+    
+}
+article {
+    width: 75%;
+}
+aside{
+    width: 19%;
+    clear: both;
+    margin-left: 3%;
+    padding-left: 3%;
+    border-left: 0.5em;color: black ; 
+}
+article image{
+    float: left;
+    margin: 0;
+}
+article image + P{
+    margin-top: 0;
+}
+section {
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
+}
+
+figure {
+    width:60%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:100%;
+    max-width:25rem;
+}
+
+figcaption {
+    margin:.375rem 0;
+}
+
+.long-list {
+    margin-top:0;
+}
+
+nav {
+    float: left;
+    width:11.25rem;
+}
+
+footer {
+    clear: both;
+    margin-top:1.5rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+
+ @font-face {
+    src:
+    url("../fonts/montserrat.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family: josefinslab;
+
+}
+@font-face {
+    src:
+    url("../fonts/josefinslab-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family: josefinslab;
+}
+
+subsection {
+    margin-top
+    margin-bottom
+    padding,0
+    display: grid: ;
+    grid template colums
+}
+
+subsection figure {
+
+}
+
+subsection img {
+padding-bottom: 1%;
+
+}
+
+footer {
+    margin: auto;
+}
+footer:nth-child(
+    text aline :right
+)
+expand {}
+
+/* nav inline block display 
+ when target text of a link need to target anchor specifically 
+ 
+    /*    
         Spacing 
 
             - padding (shorthand and/or specific properties like padding-bottom, etc.)
