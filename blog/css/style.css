@@ -110,8 +110,8 @@ subsection {
     margin-bottom:1rem ;
     padding 0;
     display: grid;
-    grid-template-rows: ;
-    grid-template-columns: ;
+    grid-template-rows:repeat(8,100px) ;
+    grid-template-columns:repeat(8,100px) ;
     columns: 3;
     column-width:10rem ;
 }
@@ -128,8 +128,8 @@ padding-bottom: 1%;
 footer {
     margin: auto;
 }
-footer:nth-child(
-    text aline :right
+footer nth-child
+    text-aline :right
 )
 expand {}
 
