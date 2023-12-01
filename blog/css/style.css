@@ -104,11 +104,11 @@ section, aside, nav, footer {
     font-family: josefinslab;
 }
 
-subsection {
-    Flex 1;
+subsection{
+    flex: 1;
     margin-top:1rem ;
     margin-bottom:1rem ;
-    padding 0;
+    padding: 0%;
     display: grid;
     grid-template-rows:repeat(8,100px) ;
     grid-template-columns:repeat(8,100px) ;
@@ -116,9 +116,7 @@ subsection {
     column-width:10rem ;
 }
 
-subsection figure {
 
-}
 
 subsection img {
 padding-bottom: 1%;
@@ -128,10 +126,10 @@ padding-bottom: 1%;
 footer {
     margin: auto;
 }
-footer nth-child
-    text-aline :right
-)
-expand {}
+footer nth-child {
+    text-align :right}
+
+
 
 /* nav inline block display 
  when target text of a link need to target anchor specifically 
