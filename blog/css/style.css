@@ -32,7 +32,7 @@ aside{
     border-left: 0.5em;color: black ; 
 }
 article image{
-    float: left;
+    float: right;
     margin: 0;
 }
 article image + P{
@@ -98,7 +98,7 @@ subsection {
     margin-top: ;
     margin-bottom: ;
     padding,0;
-    display:grid: ;
+    display: grid;
     columns: 3;
     column-width:10rem ;
 }
