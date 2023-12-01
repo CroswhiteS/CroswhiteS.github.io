@@ -25,6 +25,10 @@ article {
     width: 75%;
 }
 aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
     width: 19%;
     clear: both;
     margin-left: 3%;
@@ -32,6 +36,7 @@ aside{
     border-left: 0.5em;color: black ; 
 }
 article image{
+
     float: right;
     margin: 0;
 }
@@ -95,9 +100,10 @@ section, aside, nav, footer {
 }
 
 subsection {
-    margin-top: ;
-    margin-bottom: ;
-    padding,0;
+    Flex 1;
+    margin-top:1rem ;
+    margin-bottom:1rem ;
+    padding 0;
     display: grid;
     columns: 3;
     column-width:10rem ;
