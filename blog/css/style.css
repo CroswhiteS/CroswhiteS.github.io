@@ -25,6 +25,7 @@ article {
     width: 75%;
 }
 aside{
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -33,12 +34,16 @@ aside{
     clear: both;
     margin-left: 3%;
     padding-left: 3%;
-    border-left: 0.5em;color: black ; 
+    border-left: 0.5rem;color: black ; 
+}
+aside + p{
+    border-bottom: 0.5rem;color: #000;
 }
 article image{
 
     float: right;
     margin: 0;
+   
 }
 article image + P{
     margin-top: 0;
@@ -105,6 +110,8 @@ subsection {
     margin-bottom:1rem ;
     padding 0;
     display: grid;
+    grid-template-rows: ;
+    grid-template-columns: ;
     columns: 3;
     column-width:10rem ;
 }
