@@ -95,11 +95,12 @@ section, aside, nav, footer {
 }
 
 subsection {
-    margin-top
-    margin-bottom
-    padding,0
-    display: grid: ;
-    grid template colums
+    margin-top: ;
+    margin-bottom: ;
+    padding,0;
+    display:grid: ;
+    columns: 3;
+    column-width:10rem ;
 }
 
 subsection figure {
