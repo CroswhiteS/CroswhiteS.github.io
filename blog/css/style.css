@@ -33,10 +33,7 @@ header {
 .highlight {
     background-color: rgb(255, 174, 0);
 }
-h1,
-h2 {
-    letter-spacing:.125rem;
-    font-family:josfinslab, Georgia, 'Times New Roman', Times, serif;}
+
 #wrapper {
     width:43.75rem ;
     margin:0 auto;
@@ -46,7 +43,10 @@ nav {
     margin: auto;
     list-style-type: none;
 }
-
+h1,
+h2 {
+    letter-spacing:.125rem;
+    font-family:josfinslab, Georgia, 'Times New Roman', Times, serif;}
 body {
     margin: 1.5rem auto;
     width:90%;
