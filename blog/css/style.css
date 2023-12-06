@@ -46,7 +46,6 @@ nav {
     display: block;
 }
 h1,
-h2,
 nav {
     letter-spacing:.125rem;
     font-family:josfinslab, Georgia, 'Times New Roman', Times, serif;}
@@ -134,10 +133,7 @@ section, aside, nav, footer {
 
 
 .subsection {
-
-}
-
-flex: 1;
+    flex: 1;
     margin-top:1rem ;
     margin-bottom:1rem ;
     padding: 0%;
@@ -146,6 +142,9 @@ flex: 1;
     grid-template-columns:repeat(8,100px) ;
     columns: 3;
     column-width:10rem ;
+}
+
+
 
 subsection img {
 padding-bottom: 1%;
