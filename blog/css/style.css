@@ -24,7 +24,7 @@ main {
 article {
     width: 75%;
 }
-aside{
+aside {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ figcaption {
 
 nav {
     float: left;
-    width:22 rem;
+    width:35 rem;
 }
 
 footer {
@@ -126,7 +126,7 @@ padding-bottom: 1%;
 footer {
     margin: auto;
 }
-footer nth()-child {
+footer+section {
     text-align :right}
 
 
