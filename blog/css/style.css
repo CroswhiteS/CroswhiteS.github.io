@@ -42,6 +42,8 @@ nav {
     width:31.25rem;
     margin: auto;
     list-style-type: none;
+    white-space: nowrap;
+    display: block;
 }
 h1,
 h2,
@@ -69,7 +71,7 @@ article {
 aside {
     text-align: left;
     position: absolute;
-    top: 80px;
+    top: 120px;
     
     display: flex;
     flex-direction: column;
@@ -132,7 +134,10 @@ section, aside, nav, footer {
 
 
 .subsection {
-    flex: 1;
+
+}
+
+flex: 1;
     margin-top:1rem ;
     margin-bottom:1rem ;
     padding: 0%;
@@ -141,9 +146,6 @@ section, aside, nav, footer {
     grid-template-columns:repeat(8,100px) ;
     columns: 3;
     column-width:10rem ;
-}
-
-
 
 subsection img {
 padding-bottom: 1%;
