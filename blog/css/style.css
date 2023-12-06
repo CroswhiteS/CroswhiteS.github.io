@@ -75,7 +75,7 @@ figcaption {
 
 nav {
     float: left;
-    width:11.25rem;
+    width:22 rem;
 }
 
 footer {
@@ -126,7 +126,7 @@ padding-bottom: 1%;
 footer {
     margin: auto;
 }
-footer nth-child {
+footer nth()-child {
     text-align :right}
 
 
