@@ -69,8 +69,8 @@ article {
 aside {
     text-align: left;
     position: absolute;
-    top: 30px;
-    right: 25%;
+    top: 60px;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
