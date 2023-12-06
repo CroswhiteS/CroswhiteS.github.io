@@ -7,15 +7,31 @@
 html {
     font-size:16px;
 }
+header {
+    color: #000;
+    text-align: center;
+    padding: .3rem;
+    display: block;
+}
+.highlight {
+    background-color: yellow;
+}
+#wrapper {
+    width:43.75rem ;
+    margin:0 auto;
+}
+nav {
+    width:31.25rem;
+    margin: auto;
+    list-style-type: none;
+}
 
 body {
     margin: 1.5rem auto;
     width:90%;
     min-width:56.25rem;
 }
-.highlight {
-    background-color: yellow;
-}
+
 /* Layout */
 
 main {
@@ -25,6 +41,8 @@ main {
 }
 article {
     width: 75%;
+    display:block
+    float: left
 }
 aside {
     text-align: left;
@@ -75,10 +93,7 @@ figcaption {
     margin-top:0;
 }
 
-nav {
-    float: left;
-    width:35 rem;
-}
+
 
 footer {
     clear: both;
