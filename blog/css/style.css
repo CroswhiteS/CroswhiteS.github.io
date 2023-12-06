@@ -44,7 +44,8 @@ nav {
     list-style-type: none;
 }
 h1,
-h2 {
+h2,
+nav {
     letter-spacing:.125rem;
     font-family:josfinslab, Georgia, 'Times New Roman', Times, serif;}
 body {
