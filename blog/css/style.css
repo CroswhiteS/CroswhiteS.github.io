@@ -7,6 +7,23 @@
 html {
     font-size:16px;
 }
+
+@font-face {
+    src:
+    url("../fonts/josefinslab-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family: josefinslab;
+}
+
+@font-face {
+    src:
+    url("../fonts/montserrat-regular.ttf"), format("TrueType");
+    font-style:normal;
+    font-weight:400 normal;
+    font-family: montserrat;
+}
+
 header {
     color: #000;
     text-align: center;
@@ -14,7 +31,7 @@ header {
     display: block;
 }
 .highlight {
-    background-color: yellow;
+    background-color: rgb(255, 174, 0);
 }
 #wrapper {
     width:43.75rem ;
@@ -41,8 +58,8 @@ main {
 }
 article {
     width: 75%;
-    display:block
-    float: left
+    display:block;
+    float: left;
 }
 aside {
     text-align: left;
@@ -105,21 +122,6 @@ section, aside, nav, footer {
 }
 
 
- @font-face {
-    src:
-    url("../fonts/montserrat.ttf"), format("TrueType");
-    font-style:normal;
-    font-weight:400 normal;
-    font-family: josefinslab;
-
-}
-@font-face {
-    src:
-    url("../fonts/josefinslab-regular.ttf"), format("TrueType");
-    font-style:normal;
-    font-weight:400 normal;
-    font-family: josefinslab;
-}
 
 subsection {
     flex: 1;
