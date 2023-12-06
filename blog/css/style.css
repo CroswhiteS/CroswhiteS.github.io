@@ -33,6 +33,10 @@ header {
 .highlight {
     background-color: rgb(255, 174, 0);
 }
+h1,
+h2 {
+    letter-spacing:.125rem;
+    font-family:josfinslab, Georgia, 'Times New Roman', Times, serif;}
 #wrapper {
     width:43.75rem ;
     margin:0 auto;
